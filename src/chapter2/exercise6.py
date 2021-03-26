@@ -1,5 +1,6 @@
 # This program prompts the user to enter two points A(x1,y1) and B(x2,y2),
 # and calculates the distance between them
+
 x1 = int(input('Enter x1:\n'))
 x2 = int(input('Enter x2:\n'))
 y1 = int(input('Enter y1:\n'))
