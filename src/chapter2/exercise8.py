@@ -1,0 +1,6 @@
+c = float(input("Enter the initial amount of investment;\n"))
+r = float(input("Enter the rate of interest;\n"))
+t = float(input("Enter the time (years);\n"))
+n = float(input("Enter the number of times interest is compounded per year;\n"))
+i = str(round(c*((1+(r/n))**(t*n)), 2))
+print("The final value of investment is; " + i)
