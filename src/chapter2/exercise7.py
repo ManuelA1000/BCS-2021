@@ -6,7 +6,7 @@ change =change % 20
 print(int(change//10), 'tens')
 change =change % 10
 print(int(change//5), 'fives')
-change =change % 5o
+change =change % 5
 print(int(change//1), 'ones')
 change =change % 1
 print(int(change//0.25), 'quarters')
