@@ -4,5 +4,5 @@ rate = input("Enter the payment rate:\n ")
 try:
     pay = int(hours_worked) * float(rate)
     print(pay)
-except:
+except hours_worked:
     print("Error, please enter numerical input")
