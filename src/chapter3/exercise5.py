@@ -9,5 +9,6 @@ try:
         print("The wedding will cost $15,000")
     else:
         print("The wedding will cost $20,000")
+
 except number_of_people:
     print('Please enter a digit:\n')

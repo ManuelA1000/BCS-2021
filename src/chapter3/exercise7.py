@@ -1,4 +1,4 @@
-# a program that prompts john's decision
+# a program that lets John enter his pay and location then evaluates his decision
 location = str(input("Enter the location;\n"))
 pay = int(input("Enter the pay;\n"))
 if location == str('Mbarara') and pay > 4000000:

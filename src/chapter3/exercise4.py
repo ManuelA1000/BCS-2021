@@ -1,5 +1,4 @@
 # program that shows eligibility to vote basing on age
-
 voter_age = int(input("Please enter your age: \n"))
 if voter_age >= 18:
     print("You can vote.")
