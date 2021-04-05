@@ -1,15 +1,15 @@
 # a program that lets John enter his pay and location then evaluates his decision
-location = str(input("Enter the location;\n"))
+location = input("Enter the location;\n")
 pay = int(input("Enter the pay;\n"))
-if location == str('Mbarara') and pay > 4000000:
+if location == 'Mbarara' and pay > 4000000:
     print("Sure, I can work with this")
-elif location == str('Mbarara') and pay < 4000000:
+elif location == 'Mbarara' and pay < 4000000:
     print("No thanks, I can find something better")
-elif location == str('Kampala') and pay >= 10000000:
+elif location == 'Kampala' and pay >= 10000000:
     print("Sure, I can work with this")
-elif location == str('Kampala') and pay < 10000000:
+elif location == 'Kampala' and pay < 10000000:
     print("No way!")
-elif location == str('space'):
+elif location == 'space':
     print("Without a doubt, I'll take it")
 elif pay >= int('6000000'):
     print("Sure, I can work with this")
