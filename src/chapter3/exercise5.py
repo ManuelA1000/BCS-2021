@@ -2,9 +2,6 @@
 
 try:
     number_of_people = int(input("Enter the number of people: \n"))
-except:
-    print('Please enter a digit\n')
-    quit()
     if number_of_people <= 50:
         print("The wedding will cost $ 4,000")
     elif number_of_people <= 100:
@@ -13,3 +10,5 @@ except:
         print("The wedding will cost $15,000")
     else:
         print("The wedding will cost $20,000")
+except ValueError:
+    print('Please enter a digit\n')
