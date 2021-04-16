@@ -6,8 +6,8 @@ try:
     hours = float(hours_worked)  # converting the user input to float for hours worked
     rate = float(hourly_rate)  # and hourly rate
 except:
-     print("Enter a numerical input\n")
-     quit()
+      print("Enter a numerical input\n")
+      quit()
 if hours > 40:  
     Regular_pay = (hours * rate)  # calculating pay for 40 hours or below
     Extra_pay = ((hours - 40) * 0.5 * rate)  # calculating pay for extra hours
