@@ -14,5 +14,8 @@ def compute_grade(score):
         return 'Bad score.'
 
 
-marks = float(input("Enter your score:\n"))
-print("Your score:", compute_grade(marks))
+try:
+    marks = float(input("Enter your score:\n"))
+    print("Your score:", compute_grade(marks))
+except:
+    print("Enter a numeric value:\n")
