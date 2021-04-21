@@ -11,9 +11,16 @@ while True:
             print("Illegal price: Must be a non-negative multiple of 5 cents.")
         else:
             print("Menu for deposits")
-            menu = ["'n' - deposit a nickel" , "'d' - deposit a dime" , "'q' - deposit a quarter" ,"'o' - deposit a one dollar bill" ,"'f' - deposit a five dollar bill" ,"'c' - cancel the purchase" ]      
+            menu = ["'n' - deposit a nickel" , "'d' - deposit a dime" , "'q' - deposit a quarter" ,
+                    "'o' - deposit a one dollar bill" ,"'f' - deposit a five dollar bill" ,
+                    "'c' - cancel the purchase"]      
             for deposit in menu:
-                print(deposit)   
+                print(deposit) 
+            price = int(price*100)    
+            dollars = price//100 
+            cents = price%100 
+            print("Payment due:")
+            print(dollars), print(cents)             
     except:
         price = "q"
         continue
