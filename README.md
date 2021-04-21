@@ -7,4 +7,5 @@ This repository is created to collect the assignment solutions for the subject C
 2. ACAR EMMANUEL 2020/BCS/011/PS
 3. OGONGA CHRISTOPHER 2020/BCS/008
 4. MUJUNI SHEM 2020/BCS/083/PS
+5. SSEMPEWO ROGERS 2020/BCS/077/PS
 
