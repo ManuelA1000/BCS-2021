@@ -18,7 +18,7 @@ while True:
                 print(deposit)
     except:
         price = "q"
-        continue
+
 
 
 
