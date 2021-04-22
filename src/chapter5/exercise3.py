@@ -18,9 +18,11 @@ while True:
                 print(deposit) 
             price = int(price*100)    
             dollars = price//100 
-            cents = price%100 
-            print("Payment due:")
-            print(dollars), print(cents)             
+            cents = price%100
+            x = "Payment due:"
+            y = "dollars and"
+            z = "cents"
+            print( x , str(dollars) , y , str(cents) , z)           
     except:
         price = "q"
         continue
