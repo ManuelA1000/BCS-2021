@@ -1,17 +1,17 @@
-# a program that prompts the user to enter numbers until done, then compters the average
-num = 0
+# program that reads user input and prints total, count and
+count = 0
+total = 0
 
-tot = 0.0
 while True:
-    number = input("Enter a number:\n")
-    if number == "done":
-        break
     try:
-        num1 = float(number)
+        number = input("Enter a number:")
+        if number == "done":
+            break
+        num1 = int(number)
+        count = count+1
+        total = total+num1
     except:
-        print("invalid input")
+        print("Invalid input")
         continue
-    num = num+1
-    tot = tot + num
-print("all done")
-print(tot,num ,tot/num)
+
+print(total, count, total/count)
