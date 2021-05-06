@@ -1,5 +1,6 @@
 # program that asks for billing details and calculates the water bill used in dollars
 # function to calculate gallons of water used
+
 def gallons_used(a, b):
     if b > a:
         gallons = (b-a)/10
@@ -17,7 +18,7 @@ while True:
         try:
             initial_reading = int(input("Enter the beginning meter reading:\n"))
             ending_reading = int(input("Enter the ending meter reading:\n"))
-            if 0 <= initial_reading <= 999999999 and 0 <= ending_reading <= 999999999:
+            if 0 <= initial_reading <= 999999999 and 0 <= ending_reading <= 999999999:  # trapping negatives
                 print(f"Customer code: {customer_code}")
                 print(f"Beginning meter reading: {initial_reading:09d}")
                 print(f"Ending meter reading:{ending_reading:09d}")
