@@ -5,7 +5,7 @@ This repository is created to collect the assignment solutions for the subject C
 
 1. ASHABAHEBWA ABDULSWABUR  2020/BCS/023/PS
 2. ACAR EMMANUEL 2020/BCS/011/PS
-3. OGONGA CHRISTOPHER 2020/BCS/008
-4. MUJUNI SHEM 2020/BCS/083/PS
-5. SSEMPEWO ROGERS 2020/BCS/077/PS
+3. OGONGA CHRISTOPHER 2020/BCS/008  # the most unserious and in active , has never contributed anything towards the discussions. Does not know the lab guide exists online and does not bother to attempt or look for the guestions at least. 
+4. MUJUNI SHEM 2020/BCS/083/PS  # shows interest, minimal delivery and participation
+5. SSEMPEWO ROGERS 2020/BCS/077/PS #unserious and inactive
 
