@@ -11,9 +11,10 @@ try:
         except ValueError:
             quit("Enter valid year.Thank you.")
         with open(output, 'w') as output:
-            for line in f:
-                f.readlines()
-                if (line[:-1] == year) or (line[:-2] == year) or (line[:-3] == year) or (line[:-4] == year):
+            u = f.readlines()
+            for line in u:
+
+                if (line[-1] == year) or (line[-2] == year) or (line[-3] == year) or (line[-4] == year):
                     output.write(line)
                 elif year == line[:] or year == "all" or year == "ALL":
                     output.write(line)
