@@ -17,5 +17,5 @@ for line in fhand:
         SPAM_C = float(number)
         total = total + SPAM_C
 
-average = total / count
+average = SPAM_C / count
 print('Average spam confidence: ', average)
