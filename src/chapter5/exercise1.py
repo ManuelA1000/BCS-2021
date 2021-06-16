@@ -7,7 +7,7 @@ while True:
         number = input("Enter a number:")
         if number == "done":
             break
-        num1 = int(number)
+        num1 = float(number)
         count = count+1
         total = total+num1
     except:
