@@ -5,17 +5,18 @@ total = 0
 fname = input('Enter the file name: ')
 try:
     fhand = open(fname)
+    for line in fhand:
+        if line.startswith('X-DSPAM-Confidence: '):
+            count = count + 1
+            colpos = line.find(':')
+            number = line[colpos + 1:].strip()  # Removes all text except number
+            SPAM_C = float(number)
+            total = total + SPAM_C
+
+    average = total / count
+    print('Average spam confidence: ', average)
+
 except FileNotFoundError:
     print('File cannot be opened: ', fname)
     quit()
 
-for line in fhand:
-    if line.startswith('X-DSPAM-Confidence: '):
-        count = count + 1
-        colpos = line.find(':')
-        number = line[colpos + 1:].strip()    # Removes all text except number
-        SPAM_C = float(number)
-        total = total + SPAM_C
-
-average = SPAM_C / count
-print('Average spam confidence: ', average)

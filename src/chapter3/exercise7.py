@@ -11,7 +11,7 @@ elif location == 'Kampala' and pay < 10000000:
     print("No way!")
 elif location == 'space':
     print("Without a doubt, I'll take it")
-elif pay >= int('6000000'):
+elif pay >= 6000000:
     print("Sure, I can work with this")
 else:
     print("No Thanks, I can find something better")

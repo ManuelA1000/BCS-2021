@@ -12,6 +12,7 @@ def compute_pay(hours, rate):
 try:
     hours_worked = float(input("Enter hours worked:\n"))
     hourly_rate = float(input("Enter hourly rate:\n"))
-    print("Pay is: ", compute_pay(hours_worked, hourly_rate))
+    pay = compute_pay(hours_worked, hourly_rate)
+    print('Pay is: ', pay)
 except:
     print("Please enter a numeric figure:\n")
